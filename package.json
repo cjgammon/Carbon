@@ -1,0 +1,16 @@
+{
+  "name": "Hydrogen",
+  "version": "0.0.1",
+  "description": "lightweight canvas framework",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "CJ Gammon",
+  "license": "Apache License v2",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*"
+  }
+}

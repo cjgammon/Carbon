@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+          svg{
+            background: green;
+          }
+        </style>
+    </head>
+    <body>
+        <svg id="mysvg"></svg>
+        <script src="src/C.js"></script>
+        <script>
+            var _c = new C.SVG('mysvg');
+
+            var _c2 = new C.SVG(500, 500);
+            document.body.appendChild(_c2.el);
+
+            var g = new C.Group();
+            _c2.add(g);
+
+            var rect = new C.Rect(50, 100);
+            rect.attr({
+              'fill': 'red',
+              'stroke-width': 10
+            });
+            rect.attr('stroke', 'blue');
+            g.add(rect);
+
+            var circ = new C.Circle(40, 40, 20);
+            circ.attr('fill', 'orange');
+            _c.add(circ);
+
+        </script>
+    </body>
+</html>
