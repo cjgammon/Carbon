@@ -1,6 +1,8 @@
 # Carbon
 Intended to be a SUPER Lightweight SVG Drawing API
 
+File size: **1.9kb**
+
 Below is an example of drawing some shapes and their attributes.
 ```
 <html>
