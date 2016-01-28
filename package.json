@@ -1,5 +1,5 @@
 {
-  "name": "Hydrogen",
+  "name": "Carbon",
   "version": "0.0.1",
   "description": "lightweight canvas framework",
   "main": "Gruntfile.js",
@@ -9,8 +9,9 @@
   "author": "CJ Gammon",
   "license": "Apache License v2",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "^0.4.5",
     "grunt-contrib-copy": "*",
-    "grunt-contrib-uglify": "*"
+    "grunt-contrib-uglify": "*",
+    "grunt-copy": "^0.1.0"
   }
 }

@@ -110,3 +110,11 @@ C.Path = function (_p) {
   this.el.setAttribute('d', _p);
 };
 C.Path.prototype = C.Element;
+
+C.Image = function (_w, _h, _src) {
+  this.el = document.createElementNS(C.ns, 'image');
+  this.el.setAttributeNS(C.xlink, 'href', _src);
+  this.el.setAttribute('height', _h);
+  this.el.setAttribute('width', _w);
+}
+C.Image.prototype = C.Element;
